@@ -1,0 +1,23 @@
+{
+  "name": "king-remind-skill-store",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "element-plus": "^2.9.1",
+    "pinia": "^2.3.0",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@rollup/rollup-win32-x64-msvc": "^4.60.1",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "~5.7.0",
+    "vite": "^6.0.0",
+    "vue-tsc": "^2.2.0"
+  }
+}
