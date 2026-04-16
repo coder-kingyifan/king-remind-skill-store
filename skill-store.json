@@ -12,7 +12,7 @@
       "action_config": "{\"url\":\"https://wttr.in/{{city}}?format=j1&lang=zh\",\"method\":\"GET\",\"enable_ai_summary\":true,\"summary_prompt\":\"请根据以下天气API返回的数据，用简洁的中文总结当前天气情况，包括：城市名、温度、体感温度、湿度、天气状况、风力风向。不要返回JSON格式，用自然语言描述。\"}",
       "config_schema": "[{\"key\":\"city\",\"label\":\"城市（英文）\",\"type\":\"string\",\"default\":\"Beijing\",\"placeholder\":\"如：Beijing, Shanghai, Guangzhou\"}]",
       "version": "2.0.0",
-      "author": "king-remind",
+      "author": "kingyifan",
       "tags": ["天气", "环境"]
     },
     {
@@ -25,7 +25,7 @@
       "action_config": "{\"prompt_template\":\"请给我一句今日励志名言，要求：1）来自中外知名人物；2）简短有力，不超过30字；3）附上作者名。格式：名言 —— 作者。每天尽量不同。\",\"enable_ai_summary\":false}",
       "config_schema": "[]",
       "version": "1.0.0",
-      "author": "king-remind",
+      "author": "kingyifan",
       "tags": ["名言", "每日", "励志"]
     },
     {
@@ -38,7 +38,7 @@
       "action_config": "{\"prompt_template\":\"请推荐一首经典古诗词，要求：1）先给出诗名和作者；2）再给出完整诗文；3）最后用一句话赏析。每天尽量推荐不同的诗词。当前日期：{{date}}\",\"enable_ai_summary\":false}",
       "config_schema": "[]",
       "version": "1.0.0",
-      "author": "king-remind",
+      "author": "kingyifan",
       "tags": ["诗词", "文化", "每日"]
     },
     {
@@ -51,7 +51,7 @@
       "action_config": "{\"prompt_template\":\"请教我一句实用英语表达，要求：1）给出英文原句；2）给出中文翻译；3）标注关键词汇和用法；4）给出一个简短的例句。主题可以涵盖日常对话、职场、旅行等，每天尽量不同。\",\"enable_ai_summary\":false}",
       "config_schema": "[]",
       "version": "1.0.0",
-      "author": "king-remind",
+      "author": "kingyifan",
       "tags": ["英语", "学习", "每日"]
     },
     {
@@ -64,7 +64,7 @@
       "action_config": "{\"prompt_template\":\"请根据当前时间给出今日运动建议，包括：1）推荐的运动类型和时长；2）运动注意事项；3）热身建议。考虑当前时间段是否适合运动。当前时间：{{date}} {{time}}\",\"enable_ai_summary\":false}",
       "config_schema": "[]",
       "version": "1.0.0",
-      "author": "king-remind",
+      "author": "kingyifan",
       "tags": ["运动", "健康"]
     },
     {
@@ -77,7 +77,7 @@
       "action_config": "{\"prompt_template\":\"请讲一个轻松幽默的笑话，要求：1）简短有趣，不超过100字；2）内容健康积极；3）风格多样，可以是冷笑话、谐音梗、生活趣事等。每天尽量不同。\",\"enable_ai_summary\":false}",
       "config_schema": "[]",
       "version": "1.0.0",
-      "author": "king-remind",
+      "author": "kingyifan",
       "tags": ["笑话", "趣味", "每日"]
     },
     {
@@ -90,7 +90,7 @@
       "action_config": "{\"prompt_template\":\"请给出{{constellation}}今日运势，包括：1）综合运势（1-5星）；2）爱情运势；3）事业运势；4）幸运数字和颜色。内容仅供娱乐参考。当前日期：{{date}}\",\"enable_ai_summary\":false}",
       "config_schema": "[{\"key\":\"constellation\",\"label\":\"星座\",\"type\":\"select\",\"default\":\"白羊座\",\"options\":[{\"label\":\"白羊座\",\"value\":\"白羊座\"},{\"label\":\"金牛座\",\"value\":\"金牛座\"},{\"label\":\"双子座\",\"value\":\"双子座\"},{\"label\":\"巨蟹座\",\"value\":\"巨蟹座\"},{\"label\":\"狮子座\",\"value\":\"狮子座\"},{\"label\":\"处女座\",\"value\":\"处女座\"},{\"label\":\"天秤座\",\"value\":\"天秤座\"},{\"label\":\"天蝎座\",\"value\":\"天蝎座\"},{\"label\":\"射手座\",\"value\":\"射手座\"},{\"label\":\"摩羯座\",\"value\":\"摩羯座\"},{\"label\":\"水瓶座\",\"value\":\"水瓶座\"},{\"label\":\"双鱼座\",\"value\":\"双鱼座\"}]}]",
       "version": "1.0.0",
-      "author": "king-remind",
+      "author": "kingyifan",
       "tags": ["星座", "运势", "每日"]
     },
     {
@@ -103,7 +103,7 @@
       "action_config": "{\"search_query\":\"今日科技新闻热点 AI 互联网 硬件 {{date}}\",\"summary_prompt\":\"请根据以下搜索结果，用简洁的中文总结今日科技行业的重要新闻，提炼3-5条要点，每条不超过50字。\"}",
       "config_schema": "[]",
       "version": "2.0.0",
-      "author": "king-remind",
+      "author": "kingyifan",
       "tags": ["科技", "资讯", "每日"]
     },
     {
@@ -116,7 +116,7 @@
       "action_config": "{\"search_query\":\"今日重要新闻 国内 国际 {{date}}\",\"summary_prompt\":\"请根据以下搜索结果，用简洁的中文总结今日国内外重要新闻，提炼3-5条要点，每条不超过50字。\"}",
       "config_schema": "[]",
       "version": "2.0.0",
-      "author": "king-remind",
+      "author": "kingyifan",
       "tags": ["新闻", "每日"]
     },
     {
@@ -129,7 +129,7 @@
       "action_config": "{\"prompt_template\":\"请根据当前时间段给出饮食建议，包括：1）推荐的食物和饮品；2）应避免的食物；3）简单的健康食谱推荐。当前时间：{{date}} {{time}}\",\"enable_ai_summary\":false}",
       "config_schema": "[]",
       "version": "1.0.0",
-      "author": "king-remind",
+      "author": "kingyifan",
       "tags": ["饮食", "健康"]
     },
     {
@@ -142,7 +142,7 @@
       "action_config": "{\"prompt_template\":\"请提醒我喝水！给出一条简短的喝水提醒，包含：1）温馨提醒语；2）当前时间段的建议饮水量；3）一个小贴士（如水温、饮水速度等）。每次提醒尽量不同。当前时间：{{time}}\",\"enable_ai_summary\":false}",
       "config_schema": "[]",
       "version": "1.0.0",
-      "author": "king-remind",
+      "author": "kingyifan",
       "tags": ["喝水", "健康", "提醒"]
     },
     {
@@ -155,7 +155,7 @@
       "action_config": "{\"search_query\":\"{{stock_name}} 股价 今日行情 {{date}}\",\"summary_prompt\":\"请根据以下搜索结果，用简洁的中文总结股票价格信息，包括：当前价格、涨跌额、涨跌幅、今日最高最低价。\"}",
       "config_schema": "[{\"key\":\"stock_name\",\"label\":\"股票名称/代码\",\"type\":\"string\",\"default\":\"上证指数\",\"placeholder\":\"如：上证指数、贵州茅台、000001\"}]",
       "version": "2.0.0",
-      "author": "king-remind",
+      "author": "kingyifan",
       "tags": ["股票", "财经"]
     }
   ]
